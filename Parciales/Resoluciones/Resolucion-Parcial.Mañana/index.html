@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Notas</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="validar.js"></script>
+</head>
+<body>
+
+  <h1>Formulario de Notas</h1>
+
+  <form action="promedio.php" method="POST" onsubmit="return validar()">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre"><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido"><br>
+
+    <label for="materia">Materia:</label>
+    <input type="text" name="materia" id="materia"><br>
+
+    <label for="nota1">Nota 1:</label>
+    <select name="nota1" id="nota1">
+      <option value="">Seleccione</option>
+      <script>
+        for (let i = 1; i <= 10; i++) {
+          document.write(`<option value="${i}">${i}</option>`);
+        }
+      </script>
+    </select><br>
+
+    <label for="nota2">Nota 2:</label>
+    <select name="nota2" id="nota2">
+      <option value="">Seleccione</option>
+      <script>
+        for (let i = 1; i <= 10; i++) {
+          document.write(`<option value="${i}">${i}</option>`);
+        }
+      </script>
+    </select><br>
+
+    <label for="nota3">Nota 3:</label>
+    <select name="nota3" id="nota3">
+      <option value="">Seleccione</option>
+      <script>
+        for (let i = 1; i <= 10; i++) {
+          document.write(`<option value="${i}">${i}</option>`);
+        }
+      </script>
+    </select><br>
+
+    <input type="submit" value="Calcular Promedio">
+  </form>
+
+</body>
+</html>
