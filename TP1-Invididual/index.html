@@ -37,31 +37,6 @@
         <p>Tecnologia y Gestion Web - Fecha: 2025</p>
     </footer>
 
-    <script>
-        function cargarAPI(api, event) {
-            event.preventDefault(); // Evita que el enlace recargue la página
-
-            let url;
-
-            if (api === 'api1') {
-                url = 'https://api.quotable.io/random';
-            } else if (api === 'api2') {
-                url = 'https://catfact.ninja/fact';
-            }
-
-            fetch(url)
-                .then(res => res.json())
-                .then(data => {
-                    // Muestra los datos en el contenedor con formato legible
-                    document.getElementById("contenido-api").innerText = JSON.stringify(data, null, 2);
-                })
-                .catch(err => {
-                    // Muestra un mensaje de error si algo falla
-                    document.getElementById("contenido-api").innerText = "Error al cargar la API.";
-                    console.error(err);
-                });
-        }
-    </script>
     <script src="script.js"></script>
 
 </body>
