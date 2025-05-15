@@ -1,4 +1,4 @@
-```markdown
+
 # Resumen de Fuentes sobre Tecnología y Gestión Web
 
 Este documento recopila y organiza la información proporcionada en las fuentes sobre diversos temas relacionados con la tecnología y la gestión web, incluyendo Equipos Ágiles, Historia de la Web, Arquitectura Web, HTML, CSS, JavaScript, Modelos de Negocios, Redes Sociales, Contenedores, APIs, Analytics y CMS.
@@ -226,4 +226,4 @@ Componentes de un CMS:
 Las **Cookies** se usan para mantener sesiones (ya que HTTP no guarda estado). Cada sitio puede leer solo las cookies guardadas en el cliente de su propio sitio. Tienen limitación de espacio. Se mencionan como estrategia para captura de información de otros sitios.
 Los **JWT** (JSON Web Token) se envían en cada request, no se guardan en el servidor, pueden enviar más datos (como perfil de usuario), no necesitan búsquedas en el servidor (son más rápidos) pero consumen mayor espacio que las cookies.
 
-```
+
