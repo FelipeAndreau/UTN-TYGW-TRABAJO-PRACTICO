@@ -47,12 +47,12 @@
 
 ## 4. Evolución de la Web
 
-| Era            | Años         | Características principales                                                                                   |
-| -------------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
-| **Web 1.0**    | 1994 – 1997   | Páginas estáticas; no interactividad; framesets; contadores de visitas; libros de visitas; GIFs.             |
-| **Web 1.5**    | 1997 – 2003   | Páginas dinámicas; PHP, ASP, JSP; JavaScript, VBScript; XML, XHTML, CSS; uso de bases de datos.              |
-| **Web 2.0**    | 2003 – hoy    | La Web como plataforma; inteligencia colectiva (foros, Mercado Libre); fin de versiones rígidas; UX rica.    |
-| **Web 3.0/5.0**| Futuro       | Web semántica; IA; realidad aumentada; 3D; HTML5/CSS3 avanzado.                                               |
+| Era            | Años        | Características principales                                                                                  |
+| -------------- | ----------- | ------------------------------------------------------------------------------------------------------------ |
+| **Web 1.0**    | 1994 – 1997  | Páginas estáticas; no interactividad; framesets; contadores de visitas; libros de visitas; GIFs.            |
+| **Web 1.5**    | 1997 – 2003  | Páginas dinámicas; PHP, ASP, JSP; JavaScript, VBScript; XML, XHTML, CSS; uso de bases de datos.             |
+| **Web 2.0**    | 2003 – hoy   | La Web como plataforma; inteligencia colectiva; fin de versiones rígidas; UX rica.                           |
+| **Web 3.0/5.0**| Futuro      | Web semántica; IA; realidad aumentada; 3D; HTML5/CSS3 avanzado.                                              |
 
 ---
 
@@ -103,27 +103,51 @@
 
 ---
 
-## 7. Modelos de Negocio Web
-- **B2B / B2C / C2C**  
-- **Long Tail:** Muchos nichos que suman más que unos pocos éxitos.  
-- **Tipología (Rappa):**  
-  - **Brokerage:** mercados (Airbnb, eBay, Mercado Libre)  
-  - **Advertising:** portales y banners (Facebook, Infobae)  
-  - **Infomediary:** datos y análisis (TripAdvisor)  
-  - **Merchant:** venta online directa (Amazon, Alibaba)  
-  - **Manufacturer Direct:** venta del fabricante (Dell, Apple)  
-  - **Affiliate:** comisiones por tráfico/ventas (Spotify)  
-  - **Community:** contenido abierto y premium (Wikipedia, Twitch)  
-  - **Subscription:** pago periódico (Netflix, Crunchyroll)  
-  - **Utility:** pago por uso (AWS, Google Cloud)  
+## 7. Metodologías Ágiles
+
+- **Principios (Manifiesto Ágil):**  
+  1. Individuos e interacciones sobre procesos y herramientas  
+  2. Software funcionando sobre documentación exhaustiva  
+  3. Colaboración con el cliente sobre negociación contractual  
+  4. Responder al cambio sobre seguir un plan
+
+- **Scrum:**  
+  - **Roles:** Product Owner, Scrum Master, Equipo de desarrollo  
+  - **Artefactos:** Product Backlog, Sprint Backlog, Incremento  
+  - **Ceremonias:** Sprint Planning, Daily Scrum, Sprint Review, Sprint Retrospective  
+  - **Sprints:** Iteraciones cortas (2–4 semanas)
+
+- **Kanban:**  
+  - Visualiza el flujo de trabajo (tablero con columnas: “Por hacer”, “En progreso”, “Hecho”)  
+  - Límites de trabajo en progreso (WIP)  
+  - Mejora continua mediante métricas (lead time, throughput)
+
+- **XP (eXtreme Programming):**  
+  - Prácticas: programación en parejas, desarrollo basado en pruebas (TDD), integración continua, refactoring, entrega continua.
 
 ---
 
-## 8. Redes Sociales y APIs
+## 8. Modelos de Negocio Web
+- **B2B / B2C / C2C**  
+- **Long Tail:** Muchos nichos que suman más que unos pocos éxitos.  
+- **Tipología (Rappa):**  
+  - **Brokerage:** mercados (Airbnb, Mercado Libre)  
+  - **Advertising:** portales y banners (Facebook, Infobae)  
+  - **Infomediary:** análisis de datos (TripAdvisor)  
+  - **Merchant:** venta directa (Amazon, Alibaba)  
+  - **Manufacturer Direct:** canal directo (Dell, Apple)  
+  - **Affiliate:** comisiones por tráfico/ventas  
+  - **Community:** contenido colaborativo (Wikipedia, Twitch)  
+  - **Subscription:** pago periódico (Netflix)  
+  - **Utility:** pago por uso (AWS)
+
+---
+
+## 9. Redes Sociales y APIs
 - **Redes Sociales:**  
-  - Origen teórico (1954: John Barnes); importancia de “lazos débiles” (Granovetter, 1973).  
+  - Origen teórico (1954: Barnes); “lazos débiles” (Granovetter, 1973).  
   - Difusión de información y capital social vs. humano.
 
-- **Social Media (Kaplan & Haenlein, 2009):** Aplicaciones web 2.0 para crear/intercambiar contenido generado por usuarios.
+- **Social Media (Kaplan & Haenlein, 2009):** Apps web 2.0 para creación/intercambio de contenido UGC.
 
-- **APIs:** Integración con múltiples redes, automatización y extracción de datos.  
+- **APIs:** Permiten integración, automatización y acceso a datos de múltiples plataformas.
