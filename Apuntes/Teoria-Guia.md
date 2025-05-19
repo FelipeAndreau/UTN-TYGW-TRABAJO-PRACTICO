@@ -1,6 +1,6 @@
 # Resumen Tecnología y Gestión Web (TyGW)
 
-> ✨ **Versión resumida y prolija** — los conceptos clave en una sola mirada.
+> ✨  Conceptos clave en una sola mirada.
 
 ---
 
@@ -87,5 +87,4 @@
 
 ---
 
-> **Tip:** Usá este resumen como índice mental; profundizá cada tema con la bibliografía de la cursada.
 
